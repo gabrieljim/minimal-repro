@@ -1,0 +1,22 @@
+{
+  "name": "zd-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --mode production --no-watch",
+    "dev": "./node_modules/.bin/webpack --progress --watch --mode development"
+  },
+  "dependencies": {
+    "@zerodev/sdk": "^5.1.8",
+    "ts-loader": "^8.0.14",
+    "viem": "^2.7.19",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "tslib": "^2.6.2",
+    "typescript": "^5.0.4"
+  }
+}
