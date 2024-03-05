@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "./node_modules/.bin/webpack --mode production --no-watch",
     "dev": "./node_modules/.bin/webpack --progress --watch --mode development"
   },
   "dependencies": {
